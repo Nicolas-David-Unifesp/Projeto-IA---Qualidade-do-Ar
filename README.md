@@ -1,4 +1,5 @@
-# Projeto-IA de Qualidade do Ar
+# Projeto Final UC: Inteligência Artificial
+## Predição de qualidade do ar (ODS 13: Ação Climática)
  Predizer a concentração de CO ou NO₂ com base em temperatura, umidade e dados de outros sensores, a fim de analisar como ocorrem as mudanças climáticas. 
  Dessa forma, este projeto se relaciona com a ODS 13: Ação Contra a Mudança Global do Clima.
 
@@ -28,7 +29,7 @@ Em seguida, foi aplicada uma divisão de treino e teste utilizando a proporção
 
 ## Resultados
 Os resultados indicaram que o modelo de regressão polinomial de grau 3 apresentou o melhor resultado.
-O modelo alcançou \(R^2 = 0{,}8112\). Os dados comparando os algoritmos estão logo abaixo:
+O modelo alcançou $$R^2 = 0{,}8112$$. Os dados comparando os algoritmos estão logo abaixo:
 
 | Modelo | R² | RMSE | MAE | Tempo |
 | :--- | :---: | :---: | :---: | :---: |
