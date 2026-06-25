@@ -27,4 +27,15 @@ O pré-processamento dos dados envolveu a remoção de registros nulos (que foi 
 Em seguida, foi aplicada uma divisão de treino e teste utilizando a proporção 80/20.
 
 ## Resultados
-(Os resultados serão mostrados aqui quando os tiver)
+Os resultados indicaram que o modelo de regressão polinomial de grau 3 apresentou o melhor resultado.
+O modelo alcançou \(R^2 = 0{,}8112\). Os dados comparando os algoritmos estão logo abaixo:
+
+| Modelo | R² | RMSE | MAE | Tempo |
+| :--- | :---: | :---: | :---: | :---: |
+| Linear Simples | 0.2323 | 1.1355 | 0.9621 | 2.08 ms |
+| Linear Múltipla | 0.3498 | 1.0450 | 0.8727 | 1.76 ms |
+| Polinomial (grau 2) | 0.7345 | 0.6678 | 0.5353 | 7.44 ms |
+| Polinomial (grau 3) | 0.8112 | 0.5632 | 0.4558 | 19.29 ms |
+| Ridge | 0.3501 | 1.0448 | 0.8731 | 5.03 ms |
+
+Acredito que esse resultado tenha ocorrido porque a regressão polinomial de grau 3 coresponde às variáveis meteorológicas de forma curvilínea, uma vez que, tratando da variação do CO ao longo do dia, ue apresenta picos e quedas nesse período. Assim, basicamente, a regressão polinomial de grau 3 é capaz de capturar essa complexidade sem decorar dados, justamente por conseguir ajustar uma curva com dois pontos de inflexão.
