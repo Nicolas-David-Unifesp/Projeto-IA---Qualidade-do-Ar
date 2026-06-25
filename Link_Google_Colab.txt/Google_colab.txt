@@ -1,0 +1,2 @@
+link do colab que usei para testar o código.
+https://colab.research.google.com/drive/1bu1k__YUOi2ytt1mB3Y4btQXZaCX3XLs?usp=sharing
